@@ -1,0 +1,26 @@
+{
+  "name": "olachill",
+  "version": "1.0.0",
+  "description": "Search and plan Japan travel services from OlaChill: tours, activities, attraction tickets, ryokan, private airport transfers, chauffeur cars, charter buses, helicopter flights, golf and travel eSIM.",
+  "keywords": ["japan", "travel", "tours", "charter-bus", "airport-transfer", "helicopter", "golf", "esim", "ryokan", "mcp"],
+  "author": {
+    "name": "MIA Co., Ltd. (OlaChill)",
+    "url": "https://olachill.com"
+  },
+  "homepage": "https://olachill.com",
+  "license": "MIT",
+  "interface": {
+    "displayName": "OlaChill Japan Travel",
+    "shortDescription": "Find, compare and quote Japan tours, transfers, charter buses, helicopters, golf and eSIM",
+    "longDescription": "Connects Kimi to OlaChill's public travel MCP server (https://olachill.com/mcp). Kimi can search tours, activities, attraction and transport tickets and ryokan in Japan, check dated availability, find private airport transfers and cars with driver, search charter buses and get indicative charter quotes, browse helicopter, golf and travel eSIM options, and look up an existing booking with its reference and email. Prices are 'from' or reference prices unless a tool result says otherwise. A charter quote request is only sent after the user explicitly confirms and provides contact details. Operated by MIA Co., Ltd., Osaka, Japan.",
+    "developerName": "MIA Co., Ltd. (OlaChill)",
+    "websiteURL": "https://olachill.com"
+  },
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": {
+    "olachill": {
+      "url": "https://olachill.com/mcp"
+    }
+  }
+}
